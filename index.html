@@ -2,644 +2,530 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Política de Privacidad - Audio Cleaner | Companyoni Apps</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="no-referrer">
+<title>Política de Privacidad · Privacy Policy — Audio Cleaner | Companyoni Apps</title>
+<meta name="description" content="Política de Privacidad de Audio Cleaner: Limpiar Audio (Audio Cleaner: Noise Remover), de Companyoni Apps. Privacy Policy for Audio Cleaner: Noise Remover.">
 <style>
+:root{
+  --bg:#f3f6f9; --card:#ffffff; --text:#1f2d3a; --muted:#5b6b7a;
+  --primary:#0d47a1; --accent:#00796b; --line:#dfe6ec; --note:#e8f3f1; --warn:#fff6e0;
+}
 *{box-sizing:border-box}
-
-body{
-    margin:0;
-    font-family:Arial,Helvetica,sans-serif;
-    background:#f4f7f9;
-    color:#263238;
-    line-height:1.7;
-}
-
-header{
-    background:linear-gradient(135deg,#0D47A1,#00897B);
-    color:white;
-    padding:45px 20px;
-    text-align:center;
-}
-
-header h1{
-    margin:0 0 8px;
-    font-size:30px;
-}
-
-header p{
-    margin:4px 0;
-}
-
-.container{
-    max-width:900px;
-    margin:25px auto;
-    padding:0 18px;
-}
-
-.card{
-    background:white;
-    border-radius:16px;
-    padding:28px;
-    margin-bottom:20px;
-    box-shadow:0 3px 14px rgba(0,0,0,.08);
-}
-
-h2{
-    color:#0D47A1;
-    margin-top:30px;
-}
-
-h3{
-    color:#00796B;
-}
-
-.notice{
-    background:#E8F5E9;
-    border-left:5px solid #00897B;
-    padding:16px;
-    border-radius:8px;
-    margin:20px 0;
-}
-
-.language{
-    text-align:center;
-    margin:20px 0;
-}
-
-.language a{
-    display:inline-block;
-    margin:5px;
-    padding:10px 18px;
-    background:#0D47A1;
-    color:white;
-    text-decoration:none;
-    border-radius:25px;
-}
-
-a{
-    color:#0D47A1;
-}
-
-footer{
-    text-align:center;
-    padding:30px 15px;
-    color:#607D8B;
-    font-size:14px;
-}
-
-hr{
-    border:0;
-    border-top:1px solid #ddd;
-    margin:45px 0;
-}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  background:var(--bg);color:var(--text);line-height:1.7;font-size:16px}
+header{background:linear-gradient(135deg,#0d47a1,#00897b);color:#fff;padding:40px 18px;text-align:center}
+header h1{margin:0 0 6px;font-size:clamp(24px,5vw,34px)}
+header p{margin:3px 0;opacity:.95}
+.container{max-width:920px;margin:22px auto;padding:0 14px}
+.lang{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:18px 0}
+.lang a{background:var(--primary);color:#fff;text-decoration:none;padding:10px 20px;border-radius:999px;font-weight:600}
+.card{background:var(--card);border-radius:16px;padding:clamp(18px,4vw,32px);margin-bottom:22px;
+  box-shadow:0 2px 14px rgba(0,0,0,.07)}
+h1.doc{font-size:clamp(22px,4.5vw,28px);color:var(--primary);margin-top:0}
+h2{color:var(--primary);font-size:clamp(18px,3.6vw,21px);margin:34px 0 8px;padding-top:6px;border-top:1px solid var(--line)}
+h2:first-of-type{border-top:0;margin-top:20px}
+h3{color:var(--accent);font-size:17px;margin:20px 0 6px}
+p{margin:8px 0}
+ul{margin:8px 0 8px 1.2em;padding:0}
+li{margin:4px 0}
+a{color:var(--primary);word-break:break-word}
+.note{background:var(--note);border-left:5px solid var(--accent);padding:14px 16px;border-radius:8px;margin:16px 0}
+.warn{background:var(--warn);border-left:5px solid #f0a500;padding:14px 16px;border-radius:8px;margin:16px 0}
+.updated{color:var(--muted);font-size:15px}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:12px 0}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}
+th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+th{background:#eef3f8}
+code{background:#eef3f8;padding:1px 5px;border-radius:4px;font-size:.92em;word-break:break-word}
+footer{text-align:center;color:var(--muted);font-size:14px;padding:24px 14px 36px}
+.toplink{display:inline-block;margin-top:14px;font-size:14px}
 </style>
 </head>
-
 <body>
 
-<header>
-    <h1>🎧 Audio Cleaner</h1>
-    <p>Política de Privacidad / Privacy Policy</p>
-    <p>Companyoni Apps</p>
+<header id="top">
+  <h1>Audio Cleaner</h1>
+  <p>Política de Privacidad / Privacy Policy</p>
+  <p>Companyoni Apps</p>
 </header>
 
 <div class="container">
 
-<div class="language">
-    <a href="#es">🇪🇸 Español</a>
-    <a href="#en">🇺🇸 English</a>
+<nav class="lang" aria-label="Idioma / Language">
+  <a href="#es">Español</a>
+  <a href="#en">English</a>
+</nav>
+
+<!-- ===================================================================== -->
+<!-- ESPAÑOL                                                               -->
+<!-- ===================================================================== -->
+<main class="card" id="es" lang="es">
+
+<h1 class="doc">Política de Privacidad de Audio Cleaner</h1>
+<p class="updated"><strong>Última actualización:</strong> 8 de octubre de 2026</p>
+
+<div class="note">
+Esta política explica qué información trata la aplicación <strong>Audio Cleaner: Limpiar Audio</strong>
+(en inglés, <em>Audio Cleaner: Noise Remover</em>; identificador de paquete <code>com.companyoni.audiocleaner</code>),
+publicada por <strong>Companyoni Apps</strong>, y qué información pueden tratar los servicios de terceros que la app incluye.
 </div>
 
-<div class="card" id="es">
-
-<h1>Política de Privacidad de Audio Cleaner</h1>
-
-<p><strong>Última actualización:</strong> 12 de septiembre de 2026</p>
-
-<div class="notice">
-Esta Política de Privacidad explica cómo <strong>Companyoni Apps</strong>
-maneja la información relacionada con el uso de la aplicación
-<strong>Audio Cleaner</strong>.
-</div>
-
-<h2>1. Responsable de la aplicación</h2>
-
+<h2>1. Quiénes somos y alcance</h2>
 <p>
-<strong>Aplicación:</strong> Audio Cleaner<br>
+<strong>Aplicación:</strong> Audio Cleaner: Limpiar Audio<br>
 <strong>Desarrollador:</strong> Companyoni Apps<br>
-<strong>Correo de contacto:</strong>
-<a href="mailto:info.yaabnetwork@gmail.com">info.yaabnetwork@gmail.com</a>
+<strong>Contacto:</strong> <a href="mailto:info.yaabnetwork@gmail.com">info.yaabnetwork@gmail.com</a>
 </p>
+<p>Esta política se aplica a la aplicación Android indicada. No operamos cuentas de usuario ni servidores propios para Audio Cleaner.</p>
 
-<h2>2. Funciones de Audio Cleaner</h2>
-
-<p>
-Audio Cleaner proporciona herramientas para procesar, limpiar y mejorar
-archivos de audio y determinadas funciones relacionadas con audio y video.
-Dependiendo de la versión de la aplicación, estas funciones pueden incluir
-reducción de ruido, mejora de voz, grabación de voz, recorte de audio,
-eliminación de silencios, extracción de audio desde video y procesamiento
-de audio contenido en archivos de video.
-</p>
+<h2>2. Resumen</h2>
+<ul>
+  <li>Sus archivos de audio y video se procesan <strong>en su dispositivo</strong>. Audio Cleaner no los sube a servidores del desarrollador.</li>
+  <li>No hay registro de usuarios, ni analítica propia, ni herramientas de informes de fallos de terceros en la app.</li>
+  <li>La versión gratuita muestra anuncios de <strong>Google AdMob</strong>. Ese servicio puede tratar identificadores y otros datos técnicos (sección 8).</li>
+  <li>La <strong>medición de campañas de Meta</strong> está <strong>apagada por defecto</strong> y solo se activa con su consentimiento (sección 10).</li>
+  <li>Las compras de <strong>Audio Cleaner PRO</strong> las procesa Google Play. La app no recibe sus datos de pago (sección 9).</li>
+</ul>
 
 <h2>3. Archivos de audio y video</h2>
-
 <p>
-Para proporcionar sus funciones, Audio Cleaner permite al usuario seleccionar
-archivos de audio o video almacenados en su dispositivo.
+Para ofrecer sus funciones (limpiar audio, limpiar el audio de un video, mejorar voz, recortar, eliminar silencios,
+extraer audio, optimizar y procesar varios archivos), la app le permite elegir archivos de audio o video de su dispositivo mediante el selector de archivos del sistema.
+Solo se usan los archivos que usted selecciona o graba, y solo para la función que usted ejecuta.
+</p>
+<p>
+<strong>Procesamiento local.</strong> La reducción de ruido usa modelos de inteligencia artificial incluidos dentro de la propia app, que se ejecutan en su dispositivo
+mediante el entorno de ejecución LiteRT / TensorFlow Lite proporcionado por los servicios de Google Play. El contenido de sus archivos no se envía a servidores del desarrollador.
+El código de la app no contiene ninguna función de carga de sus audios o videos a servidores.
+</p>
+<p>
+El contenido, los nombres y las rutas de sus archivos <strong>no se envían</strong> a Google AdMob ni a Meta a través de la app.
 </p>
 
+<h2>4. Micrófono y grabaciones</h2>
 <p>
-La aplicación utiliza estos archivos únicamente cuando es necesario para
-realizar la función seleccionada por el usuario.
+Si usa “Grabar y limpiar voz”, la app solicita el permiso de Android <code>RECORD_AUDIO</code>. La grabación se crea como archivo temporal en la memoria de la app y se procesa en el dispositivo.
+El archivo original de la grabación permanece como temporal; el resultado se guarda según se describe en la sección 5. Puede revocar el permiso en los ajustes de Android; la grabación dejará de estar disponible.
 </p>
 
-<p>
-Companyoni Apps no utiliza el contenido de los archivos seleccionados por el
-usuario con fines publicitarios ni vende el contenido de sus grabaciones,
-audios o videos.
-</p>
-
-<h2>4. Micrófono y grabación de voz</h2>
-
-<p>
-Cuando el usuario utiliza la función de grabación de voz, Audio Cleaner puede
-solicitar permiso para acceder al micrófono del dispositivo.
-</p>
-
-<p>
-El acceso al micrófono se utiliza para permitir que el usuario grabe audio
-dentro de la aplicación. El usuario puede administrar o revocar este permiso
-desde la configuración de Android.
-</p>
-
-<h2>5. Archivos temporales y caché</h2>
-
-<p>
-Audio Cleaner puede crear archivos temporales o datos de caché necesarios
-para procesar contenido y mejorar el funcionamiento de la aplicación.
-</p>
-
-<p>
-Estos archivos temporales pueden eliminarse automáticamente o mediante las
-opciones disponibles en la aplicación. La eliminación de caché está destinada
-a eliminar archivos temporales y no los archivos finales que el usuario haya
-guardado intencionalmente.
-</p>
-
-<h2>6. Publicidad mediante Google AdMob</h2>
-
-<p>
-La versión gratuita de Audio Cleaner puede mostrar anuncios proporcionados
-por <strong>Google AdMob</strong>, un servicio de Google.
-</p>
-
-<p>
-El SDK de Google Mobile Ads puede recopilar o procesar automáticamente
-determinada información necesaria para proporcionar publicidad, medir el
-rendimiento de los anuncios, realizar análisis y prevenir fraude y abuso.
-Dependiendo del dispositivo, configuración, región y consentimiento del
-usuario, esta información puede incluir identificadores del dispositivo o
-publicidad, dirección IP, información aproximada de ubicación derivada de la
-dirección IP, interacciones con la aplicación y los anuncios, información de
-diagnóstico y otra información técnica.
-</p>
-
-<p>
-Google administra estos datos conforme a sus propias políticas y condiciones.
-Puede obtener más información en:
-</p>
-
-<p>
-<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-Política de Privacidad de Google
-</a>
-</p>
-
-<h2>7. Consentimiento y opciones de privacidad para anuncios</h2>
-
-<p>
-Cuando sea requerido por las leyes o políticas aplicables, Audio Cleaner
-puede solicitar al usuario su consentimiento o mostrar opciones relacionadas
-con el tratamiento de datos para publicidad.
-</p>
-
-<p>
-La disponibilidad y el tipo de anuncios pueden depender de la región,
-configuración del dispositivo, consentimiento y otras opciones de privacidad
-del usuario.
-</p>
-
-<h2>8. Audio Cleaner PRO y Google Play Billing</h2>
-
-<p>
-Audio Cleaner puede ofrecer una versión o funciones PRO mediante compras
-procesadas por Google Play.
-</p>
-
-<p>
-Las transacciones son administradas por Google Play mediante sus servicios de
-facturación. Companyoni Apps no recibe ni almacena directamente los números
-completos de tarjetas bancarias utilizados para realizar compras en Google Play.
-</p>
-
-<p>
-La aplicación puede recibir de Google Play información técnica sobre el estado
-de una compra para determinar si las funciones PRO deben estar disponibles.
-</p>
-
-<p>
-Los usuarios que hayan adquirido Audio Cleaner PRO pueden disponer de
-funciones adicionales y/o una experiencia sin los anuncios mostrados por
-Audio Cleaner, de acuerdo con las características de la versión adquirida.
-</p>
-
-<h2>9. Servicios de terceros</h2>
-
-<p>
-Audio Cleaner puede utilizar servicios o componentes proporcionados por
-terceros para determinadas funciones. Entre ellos pueden encontrarse:
-</p>
-
+<h2>5. Archivos guardados, “Mis archivos” y compartir</h2>
 <ul>
-<li>Google Play Services</li>
-<li>Google Play Billing</li>
-<li>Google AdMob / Google Mobile Ads</li>
-<li>Servicios y componentes necesarios para el funcionamiento de Android</li>
+  <li>Los resultados se guardan en su dispositivo cuando usted pulsa guardar o, en algunas funciones (por ejemplo, limpiar el audio de un video y el procesamiento por lotes), automáticamente al terminar. Se almacenan en la carpeta <em>Audio Cleaner</em> de Música (audio) o Películas (video), mediante el almacén multimedia de Android.</li>
+  <li>“Mis archivos” (historial) <strong>no es una base de datos aparte</strong>: lista los archivos de esa carpeta. Desde allí puede reproducirlos, compartirlos o eliminarlos.</li>
+  <li>Compartir un archivo abre el menú de compartir de Android; la app solo entrega el archivo a la aplicación que usted elija.</li>
+  <li>Los archivos guardados permanecen en su dispositivo hasta que usted los elimine.</li>
 </ul>
 
+<h2>6. Datos almacenados localmente</h2>
+<p>La app guarda en el dispositivo únicamente información técnica necesaria para funcionar:</p>
+<ul>
+  <li>Preferencia de idioma.</li>
+  <li>Si ya utilizó la prueba gratuita de limpieza de audio de video.</li>
+  <li>Un contador de procesos completados, para decidir cada cuántos se muestra un anuncio intersticial.</li>
+  <li>Su elección sobre la medición de campañas de Meta y, si Meta está activo, registros técnicos para evitar enviar dos veces la misma compra —se guarda un resumen criptográfico irreversible (hash) del identificador de la compra; no se guarda el identificador original— y los datos de la oferta de compra que usted inició (identificador de oferta, precio y moneda).</li>
+  <li>Archivos temporales y caché necesarios para procesar audio y video. Puede borrarlos con “Limpiar caché” en Ajustes; esa opción no elimina los archivos finales que usted guardó.</li>
+  <li>Datos que Google AdMob, el consentimiento (UMP) y Meta guardan en el dispositivo para su funcionamiento.</li>
+</ul>
 <p>
-Estos proveedores pueden tratar determinada información conforme a sus
-propias políticas de privacidad.
+Android puede incluir los datos de la app en copias de seguridad de su dispositivo según los ajustes de su cuenta de Google. Excluimos de esas copias la elección y los registros de Meta.
 </p>
 
-<h2>10. Venta de información personal</h2>
-
+<h2>7. Permisos de Android</h2>
+<div class="tablewrap">
+<table>
+<thead><tr><th>Permiso</th><th>Para qué se usa</th></tr></thead>
+<tbody>
+<tr><td><code>RECORD_AUDIO</code></td><td>Grabar su voz dentro de la app (solo si usa esa función). Se solicita en el momento de usarla.</td></tr>
+<tr><td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td><td>Conexión usada por los servicios de Google Play (anuncios, consentimiento y compras) y, si usted lo autoriza, por Meta. Las funciones de audio y video no la necesitan.</td></tr>
+<tr><td><code>com.android.vending.BILLING</code></td><td>Realizar y verificar la compra de Audio Cleaner PRO con Google Play.</td></tr>
+<tr><td><code>com.google.android.gms.permission.AD_ID</code>, <code>ACCESS_ADSERVICES_*</code></td><td>Permisos declarados por los SDK publicitarios para acceder al ID de publicidad de Android y a las API de publicidad de Android (Privacy Sandbox). Puede restablecer o eliminar su ID de publicidad en los ajustes de Android.</td></tr>
+<tr><td><code>BIND_GET_INSTALL_REFERRER_SERVICE</code></td><td>Permite al SDK de Meta (solo si usted lo autoriza) leer de Google Play la información de referencia de la instalación.</td></tr>
+<tr><td><code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code></td><td>Declarados por componentes de Android/Google para tareas internas en segundo plano.</td></tr>
+</tbody>
+</table>
+</div>
 <p>
-Companyoni Apps no vende los archivos de audio o video seleccionados por los
-usuarios ni comercializa su contenido personal.
+Audio Cleaner <strong>no solicita</strong> permisos de ubicación, contactos, cámara, teléfono ni acceso general al almacenamiento. Los archivos se eligen con el selector del sistema.
 </p>
 
+<h2>8. Publicidad con Google AdMob</h2>
 <p>
-Los proveedores externos de publicidad y servicios pueden procesar datos
-según se describe en esta política y conforme a sus propias políticas,
-configuraciones y requisitos legales.
+La versión gratuita muestra anuncios de banner e intersticiales de <strong>Google AdMob</strong> (Google Mobile Ads SDK). Los usuarios con Audio Cleaner PRO no ven anuncios,
+aunque el SDK de Google Mobile Ads puede inicializarse en la aplicación cuando el consentimiento lo permite.
+</p>
+<p>Según la documentación de Google para este SDK, este puede recopilar y compartir de forma automática, con fines de publicidad, analítica y prevención del fraude:</p>
+<ul>
+  <li>dirección IP (Google puede usarla para estimar la ubicación general del dispositivo);</li>
+  <li>interacciones con el producto (por ejemplo, apertura de la app, toques y reproducción de video de los anuncios);</li>
+  <li>información de diagnóstico (rendimiento de la app y del SDK);</li>
+  <li>identificadores del dispositivo, como el ID de publicidad de Android y el ID de conjunto de apps (App Set ID).</li>
+</ul>
+<p>
+Los datos enviados por este SDK viajan cifrados (TLS). Usted puede restablecer o eliminar el ID de publicidad en los ajustes de Android.
+Google trata estos datos según sus propias políticas:
+<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Política de Privacidad de Google</a> ·
+<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Cómo usa Google la información de apps que usan sus servicios</a> ·
+<a href="https://myadcenter.google.com/" target="_blank" rel="noopener noreferrer">Mi Centro de Anuncios de Google</a>.
 </p>
 
-<h2>11. Seguridad</h2>
-
+<h3>Consentimiento para anuncios (Google UMP)</h3>
 <p>
-Companyoni Apps procura utilizar medidas razonables para proteger la
-información relacionada con el funcionamiento de Audio Cleaner.
+Audio Cleaner usa la Plataforma de Mensajes de Usuario de Google (UMP). Antes de inicializar la publicidad solicita el estado de consentimiento y, en las regiones donde la ley lo exige
+(por ejemplo, el Espacio Económico Europeo, el Reino Unido y Suiza), muestra un mensaje de consentimiento. No se solicitan anuncios hasta que el estado lo permite.
+Cuando la ley lo requiere, Ajustes incluye la opción <strong>“Privacidad de anuncios”</strong> para revisar o cambiar su elección.
+Según su elección y su región, los anuncios pueden ser personalizados o no personalizados.
 </p>
 
+<h2>9. Audio Cleaner PRO y Google Play Billing</h2>
 <p>
-No obstante, ningún sistema electrónico, dispositivo o método de transmisión
-puede garantizar una seguridad absoluta.
+Audio Cleaner PRO es una compra única dentro de la aplicación (producto <code>audio_cleaner_pro</code>) procesada por Google Play mediante su biblioteca de facturación.
+El pago y los datos de pago son procesados por Google Play. Audio Cleaner recibe únicamente la información técnica de la compra necesaria para verificar su estado y activar las funciones PRO; <strong>no recibe ni almacena números completos de tarjetas</strong>.
+La app consulta a Google Play el estado de la compra para saber si debe activar las funciones PRO (y no mostrar anuncios), y confirma (“acknowledge”) la compra ante Google Play.
 </p>
 
-<h2>12. Conservación y eliminación</h2>
-
+<h2>10. Meta (Facebook SDK): medición de campañas</h2>
 <p>
-Los archivos temporales generados durante determinados procesos pueden
-mantenerse durante el tiempo necesario para completar las funciones de la
-aplicación y pueden ser eliminados posteriormente.
+Audio Cleaner incluye el SDK de Meta para Android (módulo <em>facebook-core</em>) <strong>solo para medir el rendimiento de nuestras campañas publicitarias</strong> en las plataformas de Meta.
+No se incluyen Inicio de sesión con Facebook, Compartir ni funciones sociales.
 </p>
 
+<h3>10.1 Cuándo se activa</h3>
+<p>Meta <strong>permanece totalmente apagado</strong> (el SDK ni siquiera se inicializa) hasta que exista una autorización válida:</p>
+<ul>
+  <li><strong>Regiones donde se muestra el mensaje de consentimiento de Google (por ejemplo, EEE, Reino Unido y Suiza):</strong> solo si Meta está disponible en ese mensaje y usted lo consiente mediante la lista de proveedores adicionales de Google.</li>
+  <li><strong>Resto de regiones (incluida América Latina):</strong> solo si usted elige <strong>“Permitir”</strong> en <em>Ajustes → Medición de campañas de Meta</em>. Sin elección, o con “No permitir”, no se envía nada a Meta.</li>
+</ul>
 <p>
-El usuario puede eliminar los archivos que haya guardado en su dispositivo
-utilizando las herramientas disponibles en Android y, cuando esté disponible,
-puede utilizar la función de limpieza de caché de Audio Cleaner para eliminar
-datos temporales de la aplicación.
+Puede cambiar su elección en cualquier momento. Si retira el permiso, la app deja de enviar nuevos eventos de inmediato y el cambio se aplica por completo la próxima vez que abra la app (el SDK deja de inicializarse).
 </p>
 
+<h3>10.2 Qué puede recibir Meta si usted lo autoriza</h3>
+<ul>
+  <li><strong>Identificadores:</strong> el ID de publicidad de Android y un identificador anónimo de la app generado por el SDK.</li>
+  <li><strong>Instalación:</strong> un evento de instalación de la app y la información de referencia de instalación que proporciona Google Play.</li>
+  <li><strong>Eventos de uso, sin contenido:</strong> inicio, finalización o fallo de una limpieza de audio o de video (indicando solo el tipo de flujo, por ejemplo archivo, lote, automático, voz o video) y exportación finalizada o fallida.</li>
+  <li><strong>Compra:</strong> si compra Audio Cleaner PRO, un evento de compra con el identificador del producto, el importe y la moneda, y el identificador de oferta u opción de compra cuando existen.</li>
+  <li><strong>Información técnica del dispositivo y de la app</strong> que el SDK incluye en sus envíos (por ejemplo, nombre del paquete, idioma, zona horaria, operador de red, densidad de pantalla y tienda de instalación) y la <strong>dirección IP</strong>, que Meta recibe al establecerse la conexión.</li>
+</ul>
 <p>
-Los datos tratados por servicios de terceros, como Google, están sujetos a
-las políticas de conservación y eliminación de dichos proveedores.
+<strong>No se envía a Meta:</strong> el contenido, el nombre ni la ruta de sus archivos; su nombre, correo o teléfono; ni el token ni el número de pedido de la compra.
+Tenemos desactivado el registro automático de eventos y de compras del SDK; solo se envían los eventos descritos arriba.
+Las comunicaciones del SDK de Meta se realizan mediante conexiones HTTPS.
 </p>
 
-<h2>13. Privacidad de menores</h2>
-
+<h3>10.3 Para qué se usa</h3>
 <p>
-Audio Cleaner es una herramienta general de edición y procesamiento de audio
-y no está diseñada específicamente para niños.
+Para medir instalaciones y el uso de la app que provienen de nuestros anuncios y para optimizar campañas de publicidad en Meta. Meta trata la información según su propia política:
+<a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">Política de Privacidad de Meta</a>.
 </p>
 
+<h2>11. Otros servicios de terceros</h2>
+<ul>
+  <li><strong>Servicios de Google Play (Google Play services):</strong> proporcionan el entorno de ejecución de IA local (LiteRT) y componentes de los SDK de Google. Google puede descargar o actualizar estos componentes.</li>
+  <li><strong>Google Play Billing, Google Mobile Ads y Google UMP:</strong> descritos en las secciones 8 y 9.</li>
+  <li><strong>Meta (facebook-core):</strong> descrito en la sección 10.</li>
+  <li>Componentes de Android y AndroidX para el funcionamiento técnico de la app.</li>
+</ul>
+<p>La app no incluye herramientas de analítica propias, ni Firebase Analytics ni servicios de informes de fallos de terceros.</p>
+
+<h2>12. Venta y compartición de datos</h2>
 <p>
-Companyoni Apps no utiliza intencionalmente la aplicación para solicitar a
-menores que proporcionen información personal directamente al desarrollador.
+Companyoni Apps no vende sus archivos de audio o video ni su contenido personal, y no recibe en servidores propios los datos descritos en esta política.
+No obstante, el uso de identificadores de publicidad por servicios de publicidad y medición (Google y, si usted lo autoriza, Meta) puede considerarse “venta” o “compartición” de datos según algunas leyes de privacidad.
+Puede evitarlo o limitarlo restableciendo su ID de publicidad, usando “Privacidad de anuncios” (cuando esté disponible) y manteniendo la medición de Meta desactivada.
 </p>
 
-<h2>14. Permisos del dispositivo</h2>
-
+<h2>13. Conservación</h2>
 <p>
-Audio Cleaner puede solicitar únicamente los permisos necesarios para
-proporcionar determinadas funciones, como acceso al micrófono cuando el
-usuario decide realizar una grabación.
+Companyoni Apps no mantiene servidores con sus datos. Los datos locales permanecen en su dispositivo hasta que usted los elimine, borre los datos de la app o la desinstale.
+La caché y los archivos temporales pueden eliminarse al finalizar los procesos y puede borrarlos usted con “Limpiar caché”. Los datos tratados por Google y Meta se conservan según sus propias políticas.
 </p>
 
+<h2>14. Cómo eliminar o controlar sus datos</h2>
+<ul>
+  <li><strong>Archivos guardados:</strong> elimínelos desde “Mis archivos” o con las herramientas de Android.</li>
+  <li><strong>Caché:</strong> use “Limpiar caché” en Ajustes.</li>
+  <li><strong>Datos de la app:</strong> borre los datos o desinstale la app desde los ajustes de Android.</li>
+  <li><strong>ID de publicidad:</strong> restablézcalo o elimínelo en los ajustes de Android (normalmente en Privacidad → Anuncios).</li>
+  <li><strong>Consentimiento de anuncios:</strong> use “Privacidad de anuncios” en Ajustes cuando aparezca.</li>
+  <li><strong>Meta:</strong> elija “No permitir” en Ajustes → Medición de campañas de Meta. Para los datos que ya recibió Meta, consulte las herramientas y la política de Meta.</li>
+  <li><strong>Micrófono:</strong> revoque el permiso en los ajustes de Android.</li>
+</ul>
+
+<h2>15. Seguridad</h2>
 <p>
-Los permisos pueden administrarse desde la configuración del sistema Android.
-Algunas funciones pueden dejar de funcionar si el usuario revoca un permiso
-necesario para ellas.
+Procesar sus archivos en el dispositivo evita transmitirlos. Los SDK de Google y Meta utilizan conexiones cifradas para enviar sus datos. Aplicamos medidas razonables, pero ningún sistema puede garantizar una seguridad absoluta.
 </p>
 
-<h2>15. Cambios en esta Política de Privacidad</h2>
-
+<h2>16. Transferencias internacionales</h2>
 <p>
-Companyoni Apps puede actualizar esta Política de Privacidad cuando se
-incorporen nuevas funciones, servicios, proveedores o cuando cambien los
-requisitos legales o de Google Play.
+Google y Meta pueden tratar los datos en países distintos al suyo y aplican sus propios mecanismos de protección para esas transferencias. Companyoni Apps no realiza transferencias propias de sus archivos.
 </p>
 
+<h2>17. Privacidad de menores</h2>
 <p>
-Cuando se realicen cambios, se actualizará la fecha indicada al inicio de
-esta política.
+Audio Cleaner no está dirigida a niños y Companyoni Apps no solicita intencionalmente a menores que proporcionen información personal directamente al desarrollador. Los servicios de terceros utilizados por la aplicación pueden procesar datos técnicos conforme a sus propias políticas y a la configuración aplicable.
+La app no configura los anuncios como dirigidos a niños. Si cree que un menor ha proporcionado datos, escríbanos para que podamos ayudarle.
 </p>
 
-<h2>16. Contacto</h2>
-
+<h2>18. Sus derechos</h2>
 <p>
-Para preguntas relacionadas con esta Política de Privacidad o con la
-privacidad en Audio Cleaner, puede contactar a:
+Según su país, puede tener derecho a acceder, rectificar, suprimir, limitar u oponerse al tratamiento de sus datos, a la portabilidad, a retirar su consentimiento en cualquier momento y a presentar una reclamación ante la autoridad de protección de datos
+(por ejemplo, en el EEE y el Reino Unido, o conforme a las leyes aplicables en México, Colombia, Perú y Ecuador). La retirada del consentimiento no afecta al tratamiento realizado antes de retirarlo.
+Como Companyoni Apps no mantiene cuentas ni servidores con sus datos, la mayoría están en su dispositivo o en Google y Meta; puede ejercer sus derechos también ante ellos y puede escribirnos para recibir ayuda.
 </p>
 
+<h2>19. Cambios en esta política</h2>
+<p>
+Podemos actualizar esta política cuando cambien la app, los servicios que utiliza o los requisitos legales. Cuando actualicemos esta política, modificaremos la fecha de Última actualización. Cuando la legislación aplicable lo requiera, proporcionaremos avisos adicionales.
+</p>
+
+<h2>20. Contacto</h2>
 <p>
 <strong>Companyoni Apps</strong><br>
-Correo electrónico:
-<a href="mailto:info.yaabnetwork@gmail.com">
-info.yaabnetwork@gmail.com
-</a>
+Correo electrónico: <a href="mailto:info.yaabnetwork@gmail.com">info.yaabnetwork@gmail.com</a>
 </p>
+<a class="toplink" href="#top">&uarr; Inicio</a>
+</main>
 
+<!-- ===================================================================== -->
+<!-- ENGLISH                                                               -->
+<!-- ===================================================================== -->
+<main class="card" id="en" lang="en">
+
+<h1 class="doc">Audio Cleaner Privacy Policy</h1>
+<p class="updated"><strong>Last updated:</strong> October 8, 2026</p>
+
+<div class="note">
+This policy explains what information the app <strong>Audio Cleaner: Noise Remover</strong>
+(in Spanish, <em>Audio Cleaner: Limpiar Audio</em>; package name <code>com.companyoni.audiocleaner</code>),
+published by <strong>Companyoni Apps</strong>, handles, and what information the third-party services included in the app may handle.
 </div>
 
-<hr>
-
-<div class="card" id="en">
-
-<h1>Audio Cleaner Privacy Policy</h1>
-
-<p><strong>Last updated:</strong> September 12, 2026</p>
-
-<div class="notice">
-This Privacy Policy explains how <strong>Companyoni Apps</strong>
-handles information related to the use of the
-<strong>Audio Cleaner</strong> application.
-</div>
-
-<h2>1. App Developer</h2>
-
+<h2>1. Who we are and scope</h2>
 <p>
-<strong>Application:</strong> Audio Cleaner<br>
+<strong>Application:</strong> Audio Cleaner: Noise Remover<br>
 <strong>Developer:</strong> Companyoni Apps<br>
-<strong>Contact email:</strong>
-<a href="mailto:info.yaabnetwork@gmail.com">info.yaabnetwork@gmail.com</a>
+<strong>Contact:</strong> <a href="mailto:info.yaabnetwork@gmail.com">info.yaabnetwork@gmail.com</a>
 </p>
+<p>This policy applies to the Android app named above. We do not operate user accounts or our own servers for Audio Cleaner.</p>
 
-<h2>2. Audio Cleaner Features</h2>
-
-<p>
-Audio Cleaner provides tools for processing, cleaning, and enhancing audio
-files and certain audio and video related functions. Depending on the app
-version, these features may include noise reduction, voice enhancement,
-voice recording, audio trimming, silence removal, extracting audio from
-video, and processing audio contained in video files.
-</p>
-
-<h2>3. Audio and Video Files</h2>
-
-<p>
-To provide its features, Audio Cleaner allows users to select audio or video
-files stored on their devices.
-</p>
-
-<p>
-The application uses these files when necessary to perform the function
-selected by the user.
-</p>
-
-<p>
-Companyoni Apps does not use the content of files selected by users for
-advertising purposes and does not sell the content of users' recordings,
-audio, or videos.
-</p>
-
-<h2>4. Microphone and Voice Recording</h2>
-
-<p>
-When users choose the voice recording feature, Audio Cleaner may request
-permission to access the device microphone.
-</p>
-
-<p>
-Microphone access is used to allow users to record audio within the
-application. Users can manage or revoke this permission through Android
-settings.
-</p>
-
-<h2>5. Temporary Files and Cache</h2>
-
-<p>
-Audio Cleaner may create temporary files or cached data necessary to process
-content and improve application functionality.
-</p>
-
-<p>
-Temporary files may be automatically removed or deleted using options
-available in the application. The cache cleaning feature is intended to
-remove temporary files and not final files intentionally saved by the user.
-</p>
-
-<h2>6. Advertising with Google AdMob</h2>
-
-<p>
-The free version of Audio Cleaner may display advertisements provided by
-<strong>Google AdMob</strong>, a Google service.
-</p>
-
-<p>
-The Google Mobile Ads SDK may automatically collect or process certain
-information necessary to provide advertising, measure ad performance,
-perform analytics, and prevent fraud and abuse. Depending on the user's
-device, settings, region, and consent choices, this information may include
-device or advertising identifiers, IP address, approximate location
-information derived from the IP address, app and ad interactions, diagnostic
-information, and other technical information.
-</p>
-
-<p>
-Google handles this information according to its own policies and terms.
-More information is available at:
-</p>
-
-<p>
-<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
-Google Privacy Policy
-</a>
-</p>
-
-<h2>7. Advertising Consent and Privacy Choices</h2>
-
-<p>
-Where required by applicable laws or policies, Audio Cleaner may request
-consent or provide privacy choices related to data processing for advertising.
-</p>
-
-<p>
-The availability and type of advertisements may depend on the user's region,
-device settings, consent choices, and other privacy preferences.
-</p>
-
-<h2>8. Audio Cleaner PRO and Google Play Billing</h2>
-
-<p>
-Audio Cleaner may offer PRO features through purchases processed by
-Google Play.
-</p>
-
-<p>
-Transactions are managed by Google Play through its billing services.
-Companyoni Apps does not directly receive or store full payment card numbers
-used to make purchases through Google Play.
-</p>
-
-<p>
-The application may receive technical information from Google Play about the
-status of a purchase in order to determine whether PRO features should be
-available.
-</p>
-
-<p>
-Users who purchase Audio Cleaner PRO may receive additional features and/or
-an ad-free experience within Audio Cleaner, according to the features of the
-purchased version.
-</p>
-
-<h2>9. Third-Party Services</h2>
-
-<p>
-Audio Cleaner may use services or components provided by third parties for
-certain features. These may include:
-</p>
-
+<h2>2. Summary</h2>
 <ul>
-<li>Google Play Services</li>
-<li>Google Play Billing</li>
-<li>Google AdMob / Google Mobile Ads</li>
-<li>Services and components necessary for Android functionality</li>
+  <li>Your audio and video files are processed <strong>on your device</strong>. Audio Cleaner does not upload them to the developer's servers.</li>
+  <li>There is no user registration, no in-house analytics and no third-party crash reporting tools in the app.</li>
+  <li>The free version shows ads from <strong>Google AdMob</strong>. That service may process identifiers and other technical data (section 8).</li>
+  <li><strong>Meta campaign measurement</strong> is <strong>off by default</strong> and only turns on with your consent (section 10).</li>
+  <li><strong>Audio Cleaner PRO</strong> purchases are processed by Google Play. The app does not receive your payment details (section 9).</li>
 </ul>
 
+<h2>3. Audio and video files</h2>
 <p>
-These providers may process certain information according to their own
-privacy policies.
+To provide its features (cleaning audio, cleaning the audio of a video, voice enhancement, trimming, silence removal, audio extraction, optimization and batch processing),
+the app lets you choose audio or video files from your device using the system file picker. Only files you select or record are used, and only for the function you run.
+</p>
+<p>
+<strong>Local processing.</strong> Noise reduction uses artificial-intelligence models bundled inside the app, which run on your device through the LiteRT / TensorFlow Lite runtime provided by Google Play services.
+The content of your files is not sent to the developer's servers. The app's code contains no function that uploads your audio or video to servers.
+</p>
+<p>
+The content, names and paths of your files are <strong>not sent</strong> to Google AdMob or Meta through the app.
 </p>
 
-<h2>10. Sale of Personal Information</h2>
-
+<h2>4. Microphone and recordings</h2>
 <p>
-Companyoni Apps does not sell audio or video files selected by users and does
-not commercially sell their personal content.
+If you use “Record and clean voice”, the app requests the Android <code>RECORD_AUDIO</code> permission. The recording is created as a temporary file in the app's storage and processed on your device.
+The original recording stays as a temporary file; the result is saved as described in section 5. You can revoke the permission in Android settings; recording will then be unavailable.
 </p>
 
+<h2>5. Saved files, “My files” and sharing</h2>
+<ul>
+  <li>Results are saved on your device when you tap save or, in some features (for example, cleaning a video's audio and batch processing), automatically when they finish. They are stored in the <em>Audio Cleaner</em> folder under Music (audio) or Movies (video), using Android's media store.</li>
+  <li>“My files” (history) is <strong>not a separate database</strong>: it lists the files in that folder. From there you can play, share or delete them.</li>
+  <li>Sharing a file opens Android's share sheet; the app only hands the file to the app you choose.</li>
+  <li>Saved files remain on your device until you delete them.</li>
+</ul>
+
+<h2>6. Data stored locally</h2>
+<p>The app stores on the device only the technical information it needs to work:</p>
+<ul>
+  <li>Language preference.</li>
+  <li>Whether you already used the free trial of video audio cleaning.</li>
+  <li>A counter of completed processes, used to decide how often an interstitial ad is shown.</li>
+  <li>Your choice about Meta campaign measurement and, if Meta is active, technical records to avoid sending the same purchase twice —an irreversible cryptographic hash of the purchase identifier is stored; the original identifier is not stored— and the details of the purchase offer you started (offer identifier, price and currency).</li>
+  <li>Temporary files and cache needed to process audio and video. You can delete them with “Clear cache” in Settings; this does not delete the final files you saved.</li>
+  <li>Data that Google AdMob, consent management (UMP) and Meta store on the device to operate.</li>
+</ul>
 <p>
-Third-party advertising and service providers may process data as described
-in this policy and according to their own policies, settings, and applicable
-legal requirements.
+Android may include the app's data in your device backups depending on your Google account settings. We exclude the Meta choice and records from those backups.
 </p>
 
-<h2>11. Security</h2>
-
+<h2>7. Android permissions</h2>
+<div class="tablewrap">
+<table>
+<thead><tr><th>Permission</th><th>What it is used for</th></tr></thead>
+<tbody>
+<tr><td><code>RECORD_AUDIO</code></td><td>Record your voice inside the app (only if you use that feature). Requested at the time you use it.</td></tr>
+<tr><td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td><td>Connection used by Google Play services (ads, consent and purchases) and, if you allow it, by Meta. The audio and video features do not need it.</td></tr>
+<tr><td><code>com.android.vending.BILLING</code></td><td>Make and verify the Audio Cleaner PRO purchase with Google Play.</td></tr>
+<tr><td><code>com.google.android.gms.permission.AD_ID</code>, <code>ACCESS_ADSERVICES_*</code></td><td>Permissions declared by the advertising SDKs to access the Android advertising ID and Android advertising APIs (Privacy Sandbox). You can reset or delete your advertising ID in Android settings.</td></tr>
+<tr><td><code>BIND_GET_INSTALL_REFERRER_SERVICE</code></td><td>Lets the Meta SDK (only if you allow it) read the install referrer information from Google Play.</td></tr>
+<tr><td><code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code></td><td>Declared by Android/Google components for internal background tasks.</td></tr>
+</tbody>
+</table>
+</div>
 <p>
-Companyoni Apps seeks to use reasonable measures to protect information
-related to the operation of Audio Cleaner.
+Audio Cleaner <strong>does not request</strong> location, contacts, camera, phone or general storage permissions. Files are chosen with the system picker.
 </p>
 
+<h2>8. Advertising with Google AdMob</h2>
 <p>
-However, no electronic system, device, or transmission method can guarantee
-absolute security.
+The free version shows banner and interstitial ads from <strong>Google AdMob</strong> (Google Mobile Ads SDK). Users with Audio Cleaner PRO do not see ads,
+although the Google Mobile Ads SDK may be initialized in the app when consent allows it.
+</p>
+<p>According to Google's documentation for this SDK, it may automatically collect and share, for advertising, analytics and fraud-prevention purposes:</p>
+<ul>
+  <li>IP address (Google may use it to estimate the device's general location);</li>
+  <li>product interactions (for example, app launch, taps and ad video views);</li>
+  <li>diagnostic information (app and SDK performance);</li>
+  <li>device identifiers, such as the Android advertising ID and the App Set ID.</li>
+</ul>
+<p>
+Data sent by this SDK is encrypted in transit (TLS). You can reset or delete the advertising ID in Android settings.
+Google handles this data under its own policies:
+<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> ·
+<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from apps that use its services</a> ·
+<a href="https://myadcenter.google.com/" target="_blank" rel="noopener noreferrer">Google My Ad Center</a>.
 </p>
 
-<h2>12. Data Retention and Deletion</h2>
-
+<h3>Advertising consent (Google UMP)</h3>
 <p>
-Temporary files generated during certain processes may remain for the time
-necessary to complete application functions and may subsequently be deleted.
+Audio Cleaner uses Google's User Messaging Platform (UMP). Before initializing advertising it requests the consent status and, in regions where the law requires it
+(for example, the European Economic Area, the United Kingdom and Switzerland), it shows a consent message. Ads are not requested until the status allows it.
+Where required by law, Settings includes the <strong>“Ad privacy”</strong> option (<em>“Privacidad de anuncios”</em> in Spanish) to review or change your choice.
+Depending on your choice and region, ads may be personalized or non-personalized.
 </p>
 
+<h2>9. Audio Cleaner PRO and Google Play Billing</h2>
 <p>
-Users can delete files saved on their devices using Android tools and, when
-available, can use Audio Cleaner's cache cleaning feature to remove temporary
-application data.
+Audio Cleaner PRO is a one-time in-app purchase (product <code>audio_cleaner_pro</code>) processed by Google Play through its billing library.
+Payment and payment details are processed by Google Play. Audio Cleaner receives only the technical purchase information needed to verify its status and enable PRO features; it <strong>does not receive or store full card numbers</strong>.
+The app asks Google Play for the purchase status to know whether to enable PRO features (and hide ads), and acknowledges the purchase with Google Play.
 </p>
 
+<h2>10. Meta (Facebook SDK): campaign measurement</h2>
 <p>
-Data processed by third-party services such as Google is subject to the
-retention and deletion policies of those providers.
+Audio Cleaner includes the Meta SDK for Android (<em>facebook-core</em> module) <strong>only to measure the performance of our advertising campaigns</strong> on Meta platforms.
+Facebook Login, Share and social features are not included.
 </p>
 
-<h2>13. Children's Privacy</h2>
-
+<h3>10.1 When it turns on</h3>
+<p>Meta <strong>stays completely off</strong> (the SDK is not even initialized) until a valid authorization exists:</p>
+<ul>
+  <li><strong>Regions where Google's consent message is shown (for example, the EEA, the UK and Switzerland):</strong> only if Meta is available in that message and you consent to it through Google's list of additional providers.</li>
+  <li><strong>All other regions (including Latin America):</strong> only if you choose <strong>“Allow”</strong> in <em>Settings → Meta campaign measurement</em>. With no choice, or with “Don't allow”, nothing is sent to Meta.</li>
+</ul>
 <p>
-Audio Cleaner is a general audio editing and processing utility and is not
-specifically designed for children.
+You can change your choice at any time. If you withdraw permission, the app immediately stops sending new events and the change is fully applied the next time you open the app (the SDK stops being initialized).
 </p>
 
+<h3>10.2 What Meta may receive if you allow it</h3>
+<ul>
+  <li><strong>Identifiers:</strong> the Android advertising ID and an anonymous app identifier generated by the SDK.</li>
+  <li><strong>Installation:</strong> an app-install event and the install referrer information provided by Google Play.</li>
+  <li><strong>Usage events, without content:</strong> start, completion or failure of an audio or video cleaning (indicating only the type of flow, for example file, batch, automatic, voice or video) and export completed or failed.</li>
+  <li><strong>Purchase:</strong> if you buy Audio Cleaner PRO, a purchase event with the product identifier, the amount and currency, and the offer or purchase-option identifier when available.</li>
+  <li><strong>Technical device and app information</strong> that the SDK includes in its requests (for example, package name, language, time zone, network carrier, screen density and installer store) and the <strong>IP address</strong>, which Meta receives when the connection is made.</li>
+</ul>
 <p>
-Companyoni Apps does not intentionally use the application to ask children
-to directly provide personal information to the developer.
+<strong>Not sent to Meta:</strong> the content, name or path of your files; your name, email or phone; or the purchase token or order number.
+We have disabled the SDK's automatic event and purchase logging; only the events described above are sent.
+The Meta SDK communicates over HTTPS connections.
 </p>
 
-<h2>14. Device Permissions</h2>
-
+<h3>10.3 What it is used for</h3>
 <p>
-Audio Cleaner may request permissions necessary to provide certain features,
-such as microphone access when a user chooses to make a recording.
+To measure installs and app usage that come from our ads and to optimize advertising campaigns on Meta. Meta processes the information under its own policy:
+<a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">Meta Privacy Policy</a>.
 </p>
 
+<h2>11. Other third-party services</h2>
+<ul>
+  <li><strong>Google Play services:</strong> provide the on-device AI runtime (LiteRT) and components of Google's SDKs. Google may download or update these components.</li>
+  <li><strong>Google Play Billing, Google Mobile Ads and Google UMP:</strong> described in sections 8 and 9.</li>
+  <li><strong>Meta (facebook-core):</strong> described in section 10.</li>
+  <li>Android and AndroidX components for the app's technical operation.</li>
+</ul>
+<p>The app does not include in-house analytics, Firebase Analytics or third-party crash reporting services.</p>
+
+<h2>12. Sale and sharing of data</h2>
 <p>
-Permissions can be managed through Android system settings. Certain features
-may stop working if a permission required for that feature is revoked.
+Companyoni Apps does not sell your audio or video files or your personal content, and does not receive on its own servers the data described in this policy.
+However, the use of advertising identifiers by advertising and measurement services (Google and, if you allow it, Meta) may be considered a “sale” or “sharing” of data under some privacy laws.
+You can avoid or limit this by resetting your advertising ID, using “Ad privacy” (when available) and keeping Meta measurement turned off.
 </p>
 
-<h2>15. Changes to This Privacy Policy</h2>
-
+<h2>13. Retention</h2>
 <p>
-Companyoni Apps may update this Privacy Policy when new features, services,
-or providers are introduced, or when legal or Google Play requirements
-change.
+Companyoni Apps does not keep servers with your data. Local data stays on your device until you delete it, clear the app's data or uninstall the app.
+Cache and temporary files may be removed when processes finish, and you can delete them with “Clear cache”. Data processed by Google and Meta is retained under their own policies.
 </p>
 
+<h2>14. How to delete or control your data</h2>
+<ul>
+  <li><strong>Saved files:</strong> delete them from “My files” or with Android tools.</li>
+  <li><strong>Cache:</strong> use “Clear cache” in Settings.</li>
+  <li><strong>App data:</strong> clear the data or uninstall the app from Android settings.</li>
+  <li><strong>Advertising ID:</strong> reset or delete it in Android settings (usually under Privacy → Ads).</li>
+  <li><strong>Ad consent:</strong> use “Ad privacy” in Settings when it appears.</li>
+  <li><strong>Meta:</strong> choose “Don't allow” in Settings → Meta campaign measurement. For data Meta already received, see Meta's tools and policy.</li>
+  <li><strong>Microphone:</strong> revoke the permission in Android settings.</li>
+</ul>
+
+<h2>15. Security</h2>
 <p>
-When changes are made, the date shown at the beginning of this policy will
-be updated.
+Processing your files on the device avoids transmitting them. Google and Meta SDKs use encrypted connections to send their data. We apply reasonable measures, but no system can guarantee absolute security.
 </p>
 
-<h2>16. Contact Us</h2>
-
+<h2>16. International transfers</h2>
 <p>
-For questions regarding this Privacy Policy or privacy in Audio Cleaner,
-please contact:
+Google and Meta may process data in countries other than yours and apply their own safeguards for those transfers. Companyoni Apps does not make its own transfers of your files.
 </p>
 
+<h2>17. Children's privacy</h2>
+<p>
+Audio Cleaner is not directed to children, and Companyoni Apps does not intentionally ask minors to provide personal information directly to the developer. Third-party services used by the app may process technical data under their own policies and the applicable configuration.
+The app does not configure ads as child-directed. If you believe a minor has provided data, write to us so we can help.
+</p>
+
+<h2>18. Your rights</h2>
+<p>
+Depending on your country, you may have the right to access, rectify, erase, restrict or object to the processing of your data, to portability, to withdraw your consent at any time and to lodge a complaint with a data protection authority
+(for example, in the EEA and the UK, or under applicable laws in Mexico, Colombia, Peru and Ecuador). Withdrawing consent does not affect processing carried out before withdrawal.
+Because Companyoni Apps does not keep accounts or servers with your data, most of it is on your device or with Google and Meta; you may also exercise your rights with them, and you can write to us for help.
+</p>
+
+<h2>19. Changes to this policy</h2>
+<p>
+We may update this policy when the app, the services it uses or legal requirements change. When we update this policy, we will change the Last updated date. Where applicable law requires it, we will provide additional notices.
+</p>
+
+<h2>20. Contact</h2>
 <p>
 <strong>Companyoni Apps</strong><br>
-Email:
-<a href="mailto:info.yaabnetwork@gmail.com">
-info.yaabnetwork@gmail.com
-</a>
+Email: <a href="mailto:info.yaabnetwork@gmail.com">info.yaabnetwork@gmail.com</a>
 </p>
-
-</div>
+<a class="toplink" href="#top">&uarr; Top</a>
+</main>
 
 <footer>
-<p><strong>© 2026 Companyoni Apps</strong></p>
-<p>Audio Cleaner · Privacy Policy</p>
+  <p><strong>&copy; 2026 Companyoni Apps</strong></p>
+  <p>Audio Cleaner · Política de Privacidad / Privacy Policy</p>
 </footer>
 
 </div>
-
 </body>
 </html>
